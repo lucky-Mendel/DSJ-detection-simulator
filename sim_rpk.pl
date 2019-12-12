@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 use strict;
 srand;
-open TRID,"<","/hwfssz5/ST_PRECISION/TOMCAT/F16ZQSB1SY2825/zhoubiaofeng_temp/version14/00.basic_infor/dice_order_four_col";
+open TRID,"<","./00.basic_infor/dice_order_four_col.txt";
 open SIM_OUT_A,">",$ARGV[0]."A";
 open SIM_OUT_B,">",$ARGV[0]."B";
 print SIM_OUT_A "txid\trpk\n";
@@ -11,7 +11,7 @@ my $line=1;
 my $count=1;
 $rpk_total=$ARGV[1];
 srand();
-open LENGTH,"<","/hwfssz5/ST_PRECISION/TOMCAT/F16ZQSB1SY2825/zhoubiaofeng_temp/version14/00.basic_infor/400_transcript_infoV1.txt";
+open LENGTH,"<","./00.basic_infor/400_transcript_infoV1.txt";
 my %gene_length=();
 my %transcript_length=();
 my %gene_transcript=();
@@ -22,7 +22,7 @@ while(<LENGTH>){
 	$transcript_length{$items[0]}=$items[1];
 	$gene_transcript{$items[0]}=$items[2];
 	}
-open PAIR,"<","/hwfssz5/ST_PRECISION/TOMCAT/F16ZQSB1SY2825/zhoubiaofeng_temp/version14/00.basic_infor/pair_transcripts.txt";
+open PAIR,"<","./00.basic_infor/pair_transcripts.txt";
 my %transcript_pair=();
 while(<PAIR>){
 	chomp;
