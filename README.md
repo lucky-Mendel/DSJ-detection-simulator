@@ -3,7 +3,7 @@ This pipeline is used to simulate SC-RNA data.
 
 ## without consideration of dropout event
 
-step1
+step1  
 ```perl sim_rpk.pl output_file_prefix gene_rpk degree_diff```  
 for example  
 ```perl sim_rpk.pl sim_rpk1 50 8```
