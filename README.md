@@ -77,7 +77,7 @@ Step4
   -o output_directory
   -g gencode.v27.primary_assembly.annotation.gtf 
   -f spanki.genome.fasta 
-  -t sim_rpk_file -bp 100 -frag 200 -ends 2 -m errorfree
+  -t dropout_tran_rpk/tran_rpk.txt -bp 100 -frag 200 -ends 2 -m errorfree
 ```  
 Example  
 ```
@@ -85,5 +85,5 @@ Example
   -o ./fastq_file/sim_rpk1A 
   -g gencode.v27.primary_assembly.annotation.gtf 
   -f GRCh38.primary_assembly.genome.spanki.fa 
-  -t sim_rpk1A -bp 100 -frag 200 -ends 2 -m errorfree
+  -t sim_rpk1A/tran_rpk.txt -bp 100 -frag 200 -ends 2 -m errorfree
 ```  
