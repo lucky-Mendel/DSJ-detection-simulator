@@ -59,7 +59,7 @@ Step3  simulate dropout event
   -o sim_rpk_dice_output_directory  
   -m errorfree
 ```  
-**NOTE**: This step will output error message.However, the dropout simulation that we exactly need is output.  
+**NOTE**: This step will output error message.However, the dropout simulation that we exactly need has been outputed.  
 Example  
 ```
   python simuDropout_modify.py 
