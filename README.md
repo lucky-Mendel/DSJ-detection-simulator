@@ -19,8 +19,8 @@ To simulate a differential expression junction related gene,for every two transc
 For A sample, transcript1_rpk/transcript2_rpk value is between degree_diff/2 and degree_diff. Keep the ratio of B inverse to A.
 
 Example  
-```perl sim_rpk.pl sim_rpk1 50 8```
-This commond outputs two files:sim_rpk1A sim_rpk1B
+```perl sim_rpk.pl sim_rpk1 50 8```  
+This commond outputs two files:sim_rpk1A sim_rpk1B  
 Step2  simulate fastq and bam files   
 ```
   python Spanki-master/bin/spankisim_transcripts  
