@@ -11,7 +11,7 @@ Following BRIE tutorial to install is advised.
 [BRIE tutorial](https://github.com/huangyh09/brie/tree/master/simulator)  
 follow the brie tutorial and install brie successfully.Then download ```simuDropout_modify.py```script to ```./brie/simulator/``` directory  
 
-## without consideration of dropout event
+## Without consideration of dropout event
 
 Step1  simulate two original rpk files  
 ```perl sim_rpk.pl output_file_prefix gene_rpk degree_diff```  
@@ -38,7 +38,7 @@ Example
   -f GRCh38.primary_assembly.genome.spanki.fa 
   -t sim_rpk1A -bp 100 -frag 200 -ends 2 -m errorfree
 ```  
-## take dropout event into consideration  
+## Take dropout event into consideration  
 Step1  
   ```perl sim_rpk.pl output_file_prefix gene_rpk degree_diff```  
 Example  
